@@ -1,0 +1,352 @@
+.feature-sec {
+    padding: 6em 0;
+
+    @media(max-width:991px) {
+        padding: 2em 0;
+    }
+
+    .feature-sec-tab {
+
+        h4 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    // sidebar tabs
+
+    .sidebar-tabs {
+        display: flex;
+
+        // sidetabs
+        .nav-tabs {
+            display: block;
+            width: 20%;
+            border: none;
+
+            .nav-item {
+                padding: 10px 20px;
+
+                .nav-link {
+                    border: 1px solid #0088C3;
+                    width: 100%;
+                    border-radius: 0.375rem;
+                    color: #0088C3;
+                }
+
+                .nav-link.active {
+                    background-color: #0088C3;
+                    color: #fff;
+                }
+            }
+
+            @media(max-width:767px) {
+                width: 100%;
+            }
+        }
+
+        .tab-content {
+            width: 80%;
+
+            @media(max-width:767px) {
+                width: 100%;
+            }
+        }
+
+        // verticle tabs
+
+        .verticle-tabs {
+            transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+            .nav-tabs {
+                display: flex;
+                width: 100%;
+                margin-bottom: 0 !important;
+
+                .nav-item {
+                    padding: 0;
+
+                    .nav-link {
+                        width: 100%;
+                        border-radius: 0;
+                        border: none;
+
+                    }
+                }
+            }
+
+            .tab-content {
+                width: 100%;
+            }
+
+            // TEXT/SMS tab sec
+
+
+            .textsms-tab-sec {
+                // border: 1px solid;
+                background-color: #fff;
+                padding: 20px 20px;
+
+                p {
+                    a {
+                        color: #0088C3;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                }
+
+                h4 {
+                    text-align: center;
+                    font-size: 16px;
+                    margin-top: 20px;
+
+                    a {
+                        color: #0088C3;
+                        font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+
+                .verification-request-img {
+                    cursor: pointer;
+
+                    span {
+                        box-sizing: border-box;
+                        display: initial !important;
+                        overflow: initial !important;
+                        width: initial !important;
+                        height: initial !important;
+                        background: initial !important;
+                        opacity: initial !important;
+                        border: initial !important;
+                        margin: initial !important;
+                        padding: initial !important;
+                        position: initial !important;
+                        top: initial !important;
+                        left: initial !important;
+                        bottom: initial !important;
+                        right: initial !important;
+                    }
+
+                    img {
+                        position: initial !important;
+                        top: initial !important;
+                        left: initial !important;
+                        bottom: initial !important;
+                        right: initial !important;
+                        box-sizing: border-box;
+                        padding: initial !important;
+                        border: initial !important;
+                        margin: initial !important;
+                        display: initial !important;
+                        width: initial !important;
+                        height: initial !important;
+                    }
+                }
+
+
+
+            }
+
+            .card {
+                .card-header {
+                    background-color: #0088C3;
+                    color: #fff;
+                }
+
+                .card-body {
+                    .googlepay-btn {
+                        cursor: pointer;
+
+                        span {
+                            position: initial !important;
+                        }
+
+                        img {
+                            position: initial !important;
+                            width: initial !important;
+                            height: initial !important;
+                            margin: 0 !important;
+                            min-width: 150px !important;
+                            max-width: 150px !important;
+                            min-height: 50px !important;
+                            max-height: 50px !important;
+                        }
+                    }
+
+                    .android-app-code {
+                        span {
+                            position: initial !important;
+                        }
+
+                        img {
+                            position: initial !important;
+                            width: initial !important;
+                            height: initial !important;
+                            min-width: 150px !important;
+                            max-width: 150px !important;
+                            min-height: 150px !important;
+                            max-height: 150px !important;
+                        }
+                    }
+
+                    .payment-imagis {
+                        cursor: pointer;
+
+                        span {
+                            position: initial !important;
+                        }
+
+                        img {
+                            position: initial !important;
+                            width: initial !important;
+                            height: initial !important;
+                            margin: 0 !important;
+                            min-width: 140px !important;
+                            max-width: 140px !important;
+                            min-height: 30px !important;
+                            max-height: 30px !important;
+                            width: 140px !important;
+                            height: 30px !important;
+                            object-fit: contain;
+                            object-position: center;
+
+                            @media(max-width:991px) {
+                                min-width: 120px !important;
+                                max-width: 120px !important;
+                                min-height: 25px !important;
+                                max-height: 25px !important;
+                                width: 120px !important;
+                                height: 25px !important;
+                            }
+                        }
+                    }
+
+                    .creditcard-payment-imagis {
+                        cursor: pointer;
+
+                        span {
+                            position: initial !important;
+                        }
+
+                        img {
+                            position: initial !important;
+                            width: initial !important;
+                            height: initial !important;
+                            margin: 0 !important;
+                            min-width: 100px !important;
+                            max-width: 100px !important;
+                            min-height: 30px !important;
+                            max-height: 30px !important;
+                            width: 100px !important;
+                            height: 30px !important;
+                            object-fit: contain;
+                            object-position: center;
+
+                            @media(max-width:991px) {
+                                min-width: 80px !important;
+                                max-width: 80px !important;
+                                min-height: 30px !important;
+                                max-height: 30px !important;
+                                width: 80px !important;
+                                height: 30px !important;
+                            }
+                        }
+                    }
+
+                    .comming-soon {
+                        text-align: center;
+
+                        p {
+                            font-size: 50px;
+                            text-align: center;
+                            font-style: italic;
+                            font-weight: bold;
+                            color: #000;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+
+                .card-content {
+                    p {
+                        a {
+                            color: #0088C3;
+                            text-decoration: none;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .d-mobile-block {
+                @media(max-width:991px) {
+                    flex-flow: wrap
+                }
+
+                .creditcard-payment-imagis,
+                .payment-imagis {
+                    margin: 20px 0;
+
+                    @media(max-width:991px) {
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+
+        .verticle-tabs.active {
+            transform: translateX(0px);
+        }
+
+        @media(max-width: 767px) {
+            display: block;
+        }
+    }
+}
+
+.textsms-modal {
+    .modal-body {
+
+        .verification-request-img {
+            cursor: pointer;
+
+            span {
+                box-sizing: border-box;
+                display: initial !important;
+                overflow: initial !important;
+                width: initial !important;
+                height: initial !important;
+                background: initial !important;
+                opacity: initial !important;
+                border: initial !important;
+                margin: initial !important;
+                padding: initial !important;
+                position: initial !important;
+                top: initial !important;
+                left: initial !important;
+                bottom: initial !important;
+                right: initial !important;
+            }
+
+            img {
+                position: initial !important;
+                top: initial !important;
+                left: initial !important;
+                bottom: initial !important;
+                right: initial !important;
+                box-sizing: border-box;
+                padding: initial !important;
+                border: initial !important;
+                margin: initial !important;
+                display: initial !important;
+                width: initial !important;
+                height: initial !important;
+            }
+        }
+    }
+}

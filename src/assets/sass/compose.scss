@@ -1,0 +1,30 @@
+.compose-main {
+    padding: 5em 0 120px 0;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    p,
+    label {
+        font-weight: 700;
+    }
+
+    .btnSend {
+        border-radius: 0;
+        background-color: #0088C3;
+
+        &:hover {
+            background-color: #0088C3;
+        }
+    }
+
+    input,
+    textarea {
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}

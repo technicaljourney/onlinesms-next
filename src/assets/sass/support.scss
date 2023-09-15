@@ -1,0 +1,129 @@
+// faq
+.faq-main {
+    padding: 5em 0 120px 0;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 300;
+
+        span {
+            font-size: 20px;
+            color: #0088C3;
+            font-weight: bold;
+        }
+    }
+
+    .accordion-item {
+        border: 0;
+        background-color: #f0f2f5;
+
+        .accordion-button.collapsed {
+            background-color: #f0f2f5;
+        }
+
+        .accordion-button {
+            background-color: #b8d6e6;
+            color: #0088c3;
+            font-weight: 500;
+
+            i {
+                margin: 0 5px;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+
+            &:after {
+                width: 14px;
+                height: 14px;
+                background-size: cover;
+            }
+        }
+
+        img.favIcon {
+            width: 15px;
+        }
+
+        span {
+            color: #fff;
+            font-weight: 700;
+            background-color: #ff0039;
+            padding: 1px 3px;
+            margin: 0 5px;
+            font-size: 12px;
+        }
+
+        span.badge-success {
+            background-color: #3fb618;
+        }
+
+        span.badge-orange {
+            background-color: #ff7518;
+        }
+
+        .accordion-body {
+            a {
+                color: #0088c3;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// terms
+.terms-main {
+    padding: 5em 0 120px 0;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    h3 {
+        border-bottom: 1px #adb5bd solid;
+        color: #006ca7;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    a {
+        color: #006ca7;
+        text-decoration: none;
+    }
+}
+
+//contact
+.contact-main {
+    padding: 5em 0 120px 0;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+
+        @media(max-width:424px) {
+            font-size: 24px;
+        }
+    }
+
+    a {
+        background-color: #0088C3;
+        color: #fff;
+        text-decoration: none;
+        padding: 6px 12px;
+    }
+
+    table {
+        thead {
+            background-color: #0088C3;
+            color: #fff;
+        }
+    }
+}
